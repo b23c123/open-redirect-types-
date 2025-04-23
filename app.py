@@ -11,7 +11,7 @@ tokens = {}
 def home():
     return """
     <h2>🚀 Open Redirect Vulnerable App</h2>
-     <img src="https://raw.githubusercontent.com/b23c123/open-redirect-types-/main/static/xss.png" alt="XSS Example" width="300">
+     <img src="/static/xss.png" alt="XSS Image" width="300">
     <ul>
          <li><a href="/header_redirect?next=https://evil.com">Header-Based Redirect</a></li>
         <li><a href="/host_redirect"> Header-Based Redirect (x-forward)</a></li> 
